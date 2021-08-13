@@ -1,0 +1,5 @@
+// Comandos para testear
+npm run test o npm test para testear todo
+
+//Comando para testear un sólo archivo
+npm run test -- numbers.test.js
