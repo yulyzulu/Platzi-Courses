@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Figuras geométricas | Curso Práctico de JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Figuras geométricas</h1>
+    <p>Este es un taller práctico de JavaScript</p>
+  </header>
+  <section>
+    <h2>Calcula el área y perímetro de un cuadrado</h2>
+    <form>
+      <label for="InputCuadrado">
+        Escribe cuánto mide cada lado de tu cuadrado:
+      </label>
+      <input id="InputCuadrado" type="number" />
+      <button type="button" onclick="calcularPerimetroCuadrado()" >
+        Calcular el perímetro
+      </button>
+      <button type="button" onclick="calcularAreaCuadrado()" >
+        Calcular el área
+      </button>
+    </form>
+  </section>
+  <section>
+    <h2>Calcula el área y perímetro de un triángulo</h2>
+    <form>
+      <label for="TrianguloLado1">
+        Escribe cuánto mide un lado de tu triángulo:
+      </label>
+      <input id="TrianguloLado1" type="number" />
+      <label for="TrianguloLado2">
+        Escribe cuánto mide el otro lado de tu triángulo:
+      </label>
+      <input id="TrianguloLado2" type="number" />
+      <label for="BaseTriangulo">
+        Escribe cuánto mide la base del triángulo:
+      </label>
+      <input id="BaseTriangulo" type="number" />
+      <label for="AlturaTriangulo">
+        Escribe cuánto es la altura del triángulo:
+      </label>
+      <input id="AlturaTriangulo" type="number" />
+      <button type="button" onclick="calcularPerimetroTriangulo()" >
+        Calcular el perímetro
+      </button>
+      <button type="button" onclick="calcularAreaTriangulo()" >
+        Calcular el área
+      </button>
+    </form>
+  </section>
+  <section>
+    <h2>Calcula el área y perímetro de un círculo</h2>
+    <form>
+      <label for="RadioCirculo">
+        Escribe cuánto mide el radio del círculo:
+      </label>
+      <input id="RadioCirculo" type="number" />
+      <button type="button" onclick="calcularPerimetroCirculo()" >
+        Calcular el perímetro
+      </button>
+      <button type="button" onclick="calcularAreaCirculo()" >
+        Calcular el área
+      </button>
+    </form>
+  </section>
+  <script src="figuras.js"></script>
+</body>
+</html>
