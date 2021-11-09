@@ -1,0 +1,16 @@
+{
+  "name": "platzi-media-player",
+  "version": "1.0.0",
+  "description": "Proyecto del Curso Profesional de JavaScript",
+  "scripts": {
+    "start": "live-server"
+  },
+  "keywords": [
+    "platzi"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
